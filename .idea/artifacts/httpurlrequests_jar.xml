@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact name="httpurlrequests:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/httpurlrequests_jar</output-path>
+    <root id="root">
+      <element id="archive" name="httpurlrequests.jar">
+        <element id="module-output" name="httpurlrequests" />
+      </element>
+      <element id="file-copy" path="$USER_HOME$/AndroidStudioProjects/NPULibrary/app/libs/jsoup-1.6.1.jar" />
+      <element id="library" level="project" name="jsoup-1.6.1" />
+    </root>
+  </artifact>
+</component>
