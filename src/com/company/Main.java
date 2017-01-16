@@ -18,6 +18,10 @@ public class Main {
         String username = console.readLine();
         System.out.print("Password:");
         String password = String.valueOf(console.readPassword());
+        if ((username.equals(""))||(username==null)){
+            username = "2015300955";
+            password = "J2mv9jyyq6";
+        }
         try {
             String param = "username=" + username + "&password=" + password;
             URL url = new URL("http://us.nwpu.edu.cn/eams/login.action");
