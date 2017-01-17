@@ -18,7 +18,7 @@ public class Main {
         String username = console.readLine();
         System.out.print("Password:");
         String password = String.valueOf(console.readPassword());
-        if ((username.equals(""))||(username==null)){
+        if (username.equals("")){
             username = "2015300955";
             password = "J2mv9jyyq6";
         }

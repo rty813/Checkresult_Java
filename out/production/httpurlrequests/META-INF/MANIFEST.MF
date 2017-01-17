@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: jsoup-1.6.1.jar jsoup-1.6.1.jar
+Main-Class: com.company.Main
+
